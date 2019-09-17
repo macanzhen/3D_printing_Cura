@@ -1,0 +1,22 @@
+中文版安装教程
+
+　　1.先运行Cura_15.04.4.exe安装程序，记住程序安装路径。
+　　2.安装过Arduino驱动的不用勾选Install Arduino Dirvers。
+　　3.最后完成时不要勾选Start Cura，复制汉化包中的文件到安装目录覆盖文件后再运行Cura。
+　　（勾选了Start Cura的，出现Cura向导界面的，看后面“=====”分割线后的内容）
+　　4.将解压出来的2个目录复制到Cura的安装目录覆盖。此操作覆盖Cura\util\resources.py Cura\util\目录下resources.py 和 profile.py 两个文件，新添加\resources\machine_profiles目录下OverLord Pro.ini和OverLord.ini两个文件。
+　　5.运行Cura，在配置向导界面，“设置你的机型”，选择“Chinese”。
+　　6.在“选择你的机型”界面，选择“其他机型”单选框。
+　　7.在“其他机器信息”界面，选择“OverLord Pro”或者“OverLord”。
+　　8.完成。
+　　=============================================================
+　　[已近打开运行了Cura的，关闭程序]
+　　4.将解压出来的2个目录复制到Cura的安装目录。此操作覆盖Cura\util\resources.py Cura\util\目录下resources.py 和 profile.py 两个文件，新添加\resources\machine_profiles目录下OverLord Pro.ini和OverLord.ini两个文件。
+　　5.运行向导界面选择语言为Chinese。
+　　6.选择机器界面选择Other（Ex：RepRap，MakerBot，Witbox）单选框。
+　　7.选择选择“OverLord Pro”或者“OverLord”单选框。
+　　8.完成。
+　　---------------------------------------原来安装过Cura ---------------------------
+　　原来已经安装过Cure，会自动导入以往版本配置文件。
+　　1.打开Cure还是英语界面，键盘操作“Ctrl+ ,”(这是“File”菜单--“Preferences”菜单的快捷键），Language选择Chinese。点击OK，关闭对话框。
+　　2.退出Cure，再重新运行。
